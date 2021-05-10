@@ -1,4 +1,5 @@
-FROM jenkins/inbound-agent:4.7-1-jdk11
+FROM jenkins/inbound-agent:4.7-1
+# Websocket broke on JDK11
 
 ARG user=jenkins
 
